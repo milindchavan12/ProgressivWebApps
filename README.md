@@ -14,12 +14,12 @@ Fetch API :
 
    Example :
   
-  '''
+  ```
    fetch('request_url')
    .then(response => {
      if(response.ok)
           return response;
     });
-   '''
+   ```
 
      
