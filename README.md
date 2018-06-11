@@ -19,6 +19,8 @@ Fetch API :
    .then(response => {
      if(response.ok)
           return response;
+          
+      throw new Error("some error message");
     });
    ```
 
