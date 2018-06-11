@@ -7,3 +7,6 @@ Service Workers are newest of Web Workers, those are introduced in HTML5 timefra
 - Shared Workers
 - Service Workers
 
+* Fetch API :
+- Nice modern Networking API
+- 
