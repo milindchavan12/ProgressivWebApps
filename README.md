@@ -13,12 +13,13 @@ Fetch API :
 - It is a "Living Standard"
 
    Example :
-   
+  
+  '''
    fetch('request_url')
    .then(response => {
      if(response.ok)
           return response;
     });
-   
+   '''
 
      
