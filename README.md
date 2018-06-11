@@ -12,6 +12,13 @@ Fetch API :
 - It is build on Promises
 - It is a "Living Standard"
 
-Example : 
+   Example :
+   
+   fetch('request_url')
+   .then(response => {
+     if(response.ok)
+          return response;
+    });
+   
 
      
