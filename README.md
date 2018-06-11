@@ -21,7 +21,9 @@ Fetch API :
           return response;
           
       throw new Error("some error message");
-    });
+    })
+    .then(response => response.json())
+    .catch(console.error);
    ```
 
      
